@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Seus metadados aqui -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="inicio">
+        <section id="home">
+            <!-- Conteúdo da seção "Início" -->
+        <div class="container home">
+            <div class="row">
+                <div class="home-info">
+                    <p>Olá, eu sou</p>
+                    <h1 class="nome">Giselle Melo</h1>
+                    <h3 class="profissão">Estudante de tecnologia</h3>
+                    <br><br>
+
+                    <a href="Currículo.pdf" download="Currículo.pdf">
+                    <button class="button-download" type="button">Download CV</button>
+                    </a>
+
+                    <br><br>
+                    <a href="https://www.linkedin.com/in/giselle-melo-407651171/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/melogiselle/" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://wa.me/5511954010604/" target="_blank">
+                            <ion-icon name="logo-whatsapp"></ion-icon></a></div>              
+            </div>
+        </div>
+        </div>
+        </section>
+    <script 
+    type="module" 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script 
+    nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+        <!-- Conteúdo da seção "Sobre mim" -->
+        <img src="/imagens/PROFILE.png" alt="Giselle" width="300px" class="imagem-redonda">
+        <section id="sobre-mim">
+          <div class="container about">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h1 class="sobre">SOBRE MIM</h1>
+                    <p>Atualmente, estou imerso em uma jornada de aprendizado enquanto curso Análise e Desenvolvimento de Sistemas. Cada novo conceito e desafio que encontro reforça minha paixão por tecnologia e inovação.</p> 
+                    <p> Tenho experiência de três anos como assistente administrativo, desenvolvi habilidades essenciais, desde comunicação até o uso eficiente do pacote Office. Essa experiência me permitiu aprimorar não apenas minhas habilidades técnicas, mas também minha capacidade de resolver problemas e oferecer um serviço excepcional ao cliente.</p>
+                    <p>Gosto de aprender coisas novas e sempre busco absorver o máximo de experiências positivas possível.</p>
+                    <br>
+                    <p>Aqui são as tecnologias que conheço:</p>
+                    <br>
+                    <div class="tecnologias">
+                        <ion-icon name="logo-html5"></ion-icon> 
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <ion-icon name="logo-python"></ion-icon>
+                        <ion-icon name="logo-javascript"></ion-icon>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        </section>
+    <!-- Contato -->
+    <section id="contato">
+        <div class="interface">
+            <h2 class="titulo">FALE COMIGO</h2>
+
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Celular">
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+            </form>
+    
+            <div id="successMessage" style="display: none;">Obrigado! Sua mensagem foi enviada com sucesso.</div>
+        </div>
+    </section>
+    <script>
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

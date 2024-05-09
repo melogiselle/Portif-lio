@@ -1,0 +1,266 @@
+body{
+    background: black;
+    color: #FFFFFF;
+    font-family: "Abel", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #b57edc;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+nav{ /*menu*/
+    display: flex;
+    justify-content: end;
+    height: 8vh;
+    padding: 28px;
+    font-size: 22px;
+}
+
+.nav-list{ 
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 5px;
+    margin-left: 32px;
+
+}
+
+.nav-list li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/* Estilos para o layout inicial */
+
+#home{
+    margin-bottom: 50px;
+}
+
+.inicio { 
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+    justify-content:space-around;
+   
+}
+
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container{ /*home-info*/
+    max-width: 1000px;
+    width: 800px;
+    height: 400px;
+
+    margin: auto;
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+.row{ 
+    display: flex;
+    width: 500px;
+    height: 400px;
+
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+
+.home-info {
+    text-align: left;
+
+}
+
+.home-info p{
+    font-size: 20px;
+}
+
+.nome{
+    color: #b57edc;
+    font-weight: 200px;
+    font-size: 70px;
+}
+
+.profissão{
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.button-download{
+    background-color: rgb(78, 78, 78);
+    color: #5ecca7;
+    width: 105px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    padding: 5px 5px;
+    font-weight: 500;
+}
+
+.button-download:hover{
+    box-shadow: 0 0 10px rgba(135, 184, 173, 0.822);
+
+}
+
+ion-icon:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    transition: 0.3s;
+}
+
+ion-icon { /*ícones in/Git*/
+    font-size: 24px;
+    color:#b57edc;
+    margin-right: 10px;
+    
+    vertical-align: middle;
+}
+
+/*SOBRE MIM*/
+
+h1.sobre{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #5ecca7;
+    font-size: 40px;
+}
+
+.section-title{
+    text-align: justify;
+}
+
+#sobre-mim {
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 600px;
+    padding-left: 300px;
+    
+}
+
+.container .about{
+    
+    display: flex;
+    text-align: right;
+}
+
+img{
+    display: flex;
+    position: relative;
+    
+
+    margin-top: 20px;
+    margin-left: 900px;
+    top: 400px;
+    
+    border-radius: 60%;
+    vertical-align: middle;
+    box-shadow: 0 0 10px 5px #b57edc; /*borda iluminada*/
+    margin-bottom: 30px;
+
+}
+
+   
+.tecnologias ion-icon{
+    font-size: 40px;
+    color: #FFFFFF;
+    
+
+    vertical-align: middle;
+}
+
+/*ESTILO DO FORMULÁRIO*/
+
+h2.titulo{
+    color: #5ecca7;
+    margin-top: -250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#contato{
+    margin-top: 50px;
+}
+
+form{
+    max-width: 500px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+form input{
+    width: 100%;
+    background-color:#242424;
+    color:#FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+form textarea{
+    width: 100%;
+    background-color:#242424;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+
+    resize: none; /*Para não redimensionar*/
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 40px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 100px;
+    /*background-color:white ;
+    color: rgb(240, 111, 240);*/
+    background-color: rgb(78, 78, 78);
+    color:  #5ecca7;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0 0 10px rgba(135, 184, 173, 0.822);
+}
+
+#successMessage {
+    color: #b57edc;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
